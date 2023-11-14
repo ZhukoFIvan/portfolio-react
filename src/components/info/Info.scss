@@ -1,0 +1,13 @@
+@import '/src/index';
+
+.item{
+	padding: 40px 40px;
+	border:1px solid $border-color;
+	border-radius: 5px;
+	.title_info{
+		font-size: 20px;
+		color:$title-color;
+		font-weight: 500;
+	}
+	
+}

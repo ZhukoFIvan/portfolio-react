@@ -1,0 +1,40 @@
+@import '/src/index';
+
+.about {
+	.about_container {
+		text-align: center;
+		margin-top: 50px;
+		.subtitle {
+			margin-bottom: 40px;
+		}
+		.info_list {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+	}
+	.title {
+		text-align: center;
+		font-size: 50px;
+		span {
+			color: $purple;
+		}
+	}
+}
+.separator {
+	border-top: 1px solid $border-color;
+	max-width: 40%;
+	margin: 72px auto 56px;
+}
+
+.skills {
+	.subtitle{
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.skills_container {
+		grid-template-columns: repeat(4, 1fr);
+		row-gap: 50px;
+		justify-items: center;
+	}
+}

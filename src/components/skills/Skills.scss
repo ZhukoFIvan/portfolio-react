@@ -1,0 +1,22 @@
+@import '/src/index';
+
+.progress_circle {
+	width: 120px;
+	height: 120px;
+}
+.skills_title {
+	text-align: center;
+	margin-top: 30px;
+}
+.CircularProgressbar-path {
+	stroke: $purple !important;
+
+}
+.CircularProgressbar-trail{
+	stroke: $container-color !important;
+}
+.CircularProgressbar-text{
+	fill: $title-color !important;
+	font-family: $second-font !important;
+
+}
