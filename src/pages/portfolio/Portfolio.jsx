@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import Modal from '../../components/modal/Modal'
 import { portfolio } from '../../data'
 import './Portfolio.scss'
 const Portfolio = () => {
@@ -22,9 +21,7 @@ const Portfolio = () => {
 										<div className='blur'></div>
 										<h3>{value.title}</h3>
 									</div>
-									
 								</div>
-								
 							</>
 						)
 					})}
